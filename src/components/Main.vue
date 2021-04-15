@@ -32,8 +32,7 @@
     </span>
     <div class="rating">
       <span  v-bind:class="{'rating-active' :checkRating(n, product)}"
-      v-for="n in 5">☆
-    </span>
+      v-for="n in 5">☆</span>
   </div>
 </div><!-- end of col-md-6-->
 </div><!-- end of row-->
