@@ -2,7 +2,7 @@
     <header>
         <div class="navbar navbar-default">
             <div class="navbar-header">
-                <h1><router-link :to="{name: 'Main'}">{{ sitename }}</router-link></h1>
+                <h2><router-link :to="{name: 'iMain'}">{{ sitename }}</router-link></h2>
             </div>
             <div class="nav navbar-nav navbar-right cart">
                 <router-link active-class="active" tag="button" class="btn btn-default btn-lg" :to="{name: 'Form'}">

@@ -44,7 +44,7 @@
 <script>
 import MyHeader from './Header.vue';
 export default {
-  name: 'imain',
+  name: 'iMain',
   data() {
     return {
       products: {},
