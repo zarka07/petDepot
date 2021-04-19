@@ -27,14 +27,6 @@ export default new Router({
       name: 'Id',
       component: Product,
       props: true,
-      children: [
-      {
-        path: 'edit',
-        name: 'Edit',
-       component: EditProduct,
-       props: true
-       }
-      ]
-    },
+    }
   ]
 })

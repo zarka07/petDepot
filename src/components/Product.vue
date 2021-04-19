@@ -21,10 +21,5 @@
   </div>
   </template>
   <script>
-  methods: {
-      edit() {
-        this.$router.push({name: 'Edit'})
-      }
-  },
-  }
+  
 </script>
